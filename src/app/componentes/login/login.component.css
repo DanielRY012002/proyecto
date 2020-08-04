@@ -1,0 +1,91 @@
+.formulario{
+    background: rgba(0, 0, 0, .5);
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 30px rgba(0,-0,-0,-0.568);
+    color: white;
+   
+}
+.form-control{
+    background: rgba(0, -0, -0, -0.3);
+    border-color: none;
+    transition: 0.5s ease-in;
+    outline: none;
+    box-shadow: none;
+    border-radius: 65px 65px 65px 65px;
+-moz-border-radius: 65px 65px 65px 65px;
+-webkit-border-radius: 65px 65px 65px 65px;
+border: 2px inset #ffffff;
+}
+.form-control:hover{
+    color: white;
+}
+.form-control:focus{
+    background: none;
+    box-shadow: none;
+   outline: none; 
+}
+.form-control::placeholder{
+    color: white;
+}
+.ingresar{
+    background-color: #7b1038;
+    border-color: #7b1038;
+    color: white;
+    padding: 10px;
+    font-size: 16px;
+    font-weight: 700 important;
+    color: white;
+    box-shadow: 0 0 30px rgba(0,-0,-0,-0.568);
+    transition: 0.5s ease-in;
+    
+} 
+.inngresar:hover{
+    color: white;
+}
+.olvide{
+    color: white;
+    text-decoration-style: none;
+    text-decoration-line: none;
+}
+.olvide:hover{
+    color: white;
+    text-decoration-style: none;
+    text-decoration-line: none;
+    cursor: pointer;
+}
+.btn btn-default {
+    width: 20px;
+    height: 10px;
+    background-color: white;
+}
+.btn-default:hover {
+    color: #333;
+    background-color: #e6e6e6;
+    border-color: #adadad;
+}
+.btn-default:hover, .btn-default:focus, .btn-default:active, .btn-default.active, .btn-default[disabled], .btn-default.disabled {
+    background-color: #e1e1e1;
+    border-color: transparent;
+    color: white;
+}
+.btn-default {
+    background-color: #eeeeee;
+    border-color: #eeeeee;
+    color: white;
+}
+
+.btn-default {
+    color: #999 !important;
+    border-color: #CCC !important;
+}
+
+.btn-default {
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.btn-block {
+    display: block;
+    width: 100%;
+}
