@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { UsuarioService } from 'src/app/services/usuario.service';
 import { Router } from '@angular/router';
-import { Usuario } from 'src/app/modelos/usuario';
+import { Proyecto } from 'src/app/modelos/proyecto';
 
 @Component({
   selector: 'app-list',
@@ -9,7 +9,7 @@ import { Usuario } from 'src/app/modelos/usuario';
   styleUrls: ['./list.component.css']
 })
 export class ListComponent implements OnInit {
-  usuarios:Usuario[];
+  usuarios:Proyecto[];
   constructor(private usuarioService:UsuarioService,private router:Router) { }
 
   ngOnInit(): void {
