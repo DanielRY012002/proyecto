@@ -8,7 +8,9 @@ import { LoginComponent } from './componentes/login/login.component';
 import { CreateComponent } from './componentes/usuario/create/create.component';
 import { EditComponent } from './componentes/usuario/edit/edit.component';
 import { ListComponent } from './componentes/usuario/list/list.component';
-
+import { HttpClientModule } from '@angular/common/http';
+import { UsuarioService } from './services/usuario.service';
+import { FormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -20,9 +22,11 @@ import { ListComponent } from './componentes/usuario/list/list.component';
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule,
+    FormsModule
   ],
-  providers: [],
+  providers: [UsuarioService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
